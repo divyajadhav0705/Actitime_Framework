@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Cell Valueadmin]]>
+    </line>
+    <line>
+      <![CDATA[Cell Valuemanager]]>
+    </line>
+    <line>
+      <![CDATA[Testtc14is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="45178" started-at="2020-08-17T14:51:17 IST" finished-at="2020-08-17T14:52:02 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="45178" started-at="2020-08-17T14:51:17 IST" finished-at="2020-08-17T14:52:02 IST">
+      <class name="Org.qsp.testPom.test_TC14">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:Org.qsp.testPom.test_TC14@37d31475]" name="openApp" is-config="true" duration-ms="19175" started-at="2020-08-17T14:51:17 IST" finished-at="2020-08-17T14:51:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="tc14()[pri:0, instance:Org.qsp.testPom.test_TC14@37d31475]" name="tc14" duration-ms="21552" started-at="2020-08-17T14:51:36 IST" finished-at="2020-08-17T14:51:58 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Cell Valueadmin]]>
+            </line>
+            <line>
+              <![CDATA[Cell Valuemanager]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc14 -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:Org.qsp.testPom.test_TC14@37d31475]" name="closeApp" is-config="true" duration-ms="4403" started-at="2020-08-17T14:51:58 IST" finished-at="2020-08-17T14:52:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc14 status=SUCCESS method=test_TC14.tc14()[pri:0, instance:Org.qsp.testPom.test_TC14@37d31475] output=Cell Valueadmin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Testtc14is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Org.qsp.testPom.test_TC14 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
